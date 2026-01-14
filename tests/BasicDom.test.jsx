@@ -1,11 +1,11 @@
 import { render, screen } from '@testing-library/react'
 
-import App from '../src/App';
+import OldApp from '../src/OldApp';
 import { describe, it } from 'vitest';
 
 describe('App', () => {
     it('renders headline', () => {
-        render(<App title="react" />);
+        render(<OldApp title="react" />);
 
         screen.debug();
 
